@@ -19,8 +19,8 @@ public class Person {
                 this.lastName = lastName;
             }
         }catch (NameException e){
-            this.firstName = "NameException";
-            this.lastName = "NameException";
+            this.firstName = "FirstNameException";
+            this.lastName = "LastNameException";
         }
 
 
